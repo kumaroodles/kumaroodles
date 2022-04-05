@@ -1,0 +1,85 @@
+.header-top{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #E5F5F6;
+    /* Width: 1440px; */
+    height: 50px ;
+}
+.logo-dark{
+    position: absolute;
+   width: 130px;
+   height: 43px;
+   top: 4px;
+   left: 40px;
+ 
+}
+.supplier{
+    position: absolute;
+    left: 25.62%;
+    right: 66.39%;
+    top: 34%;
+    bottom: 34%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #5C5C5C;
+}
+.rapid{
+position: absolute;
+left: 38.26%;
+right: 55.21%;
+top: 34%;
+bottom: 34%;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #5C5C5C;
+}
+.control{
+position: absolute;
+left: 49.44%;
+right: 44.44%;
+top: 34%;
+bottom: 34%;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+color: #00838F;
+}
+.costing{
+position: absolute;
+left: 60.21%;
+right: 33.75%;
+top: 34%;
+bottom: 34%;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #5C5C5C;
+}
+.vectors{
+position: absolute;
+left: 68.75%;
+right: 6.25%;
+top: 12.5%;
+bottom: 62.5%;
+}
+.eclipse{
+    position: absolute;
+left: 84.51%;
+right: 13.26%;
+top: 18%;
+bottom: 18%;
+border: 0.888889px solid #00838F;
+}

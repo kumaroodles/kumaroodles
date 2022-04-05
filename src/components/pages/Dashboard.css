@@ -1,0 +1,269 @@
+.row{
+    position: absolute;
+    /* width: 1360px; */
+    height: 170px;
+    left: 40px;
+    top: 85px;
+    /* background: green; */
+}
+.vector{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 40px;
+    top: 70px;
+
+}
+.dash{
+    position: absolute;
+    width: 88px;
+    height: 21px;
+    left: 74px;
+    top: 71px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #2B2C2D;
+}
+.rectangle{
+    position: absolute;
+left: 0%;
+right: 98.24%;
+top: 17.65%;
+bottom: 0%;
+background: yellow;
+}
+.prev{
+    position: absolute;
+    left: 0.5%;
+    right: 37.54%;
+    top: 54%;
+    bottom: 45%;
+}
+.rectangles{
+    position: absolute;
+    left: 100%;
+    right: -1.76%;
+    top: 100%;
+    bottom: -82.35%;
+background: yellow;
+}
+.next{
+    position: absolute;
+left: 66.7%;
+right: 4.14%;
+top: 79.17%;
+bottom: -37.51%;
+
+background: #000000;
+transform: rotate(-180deg);
+}
+.cards{
+    position: absolute;
+    width: 288px;
+    height: 140px;
+    left: 28px;
+    top: 30px;
+    /* background: hotpink; */
+    background: #FFFFFF;
+box-shadow: 0px 0px 12px 4px rgba(78, 75, 75, 0.04);
+border-radius: 6px;
+}
+.rect{
+    Width : 46px;
+    height : 46px;
+    position: absolute;
+    left: 4.17%;
+    right: 79.86%;
+    top: 8.57%;
+    bottom: 58.57%;
+    
+    /* Light Shade */
+    
+    background: #E5F5F6;
+    border-radius: 2px;
+
+
+}
+.files{
+    Width: 20.4px;
+    height: 27.2px;
+    /* position: absolute; */
+    /* left: 26.64%; */
+    /* top: 20.43%; */
+    padding-left: 12px;
+    padding-top: 10px;
+    /* margin-left: 27%;
+  
+}
+.rfq{
+    position: absolute;
+left: 4.17%;
+right: 68.75%;
+top: 50%;
+bottom: 33.57%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 150%;
+/* identical to box height, or 22px */
+
+
+/* Secondary Text */
+
+/* color: #5C5C5C; */
+}
+.docs{
+
+    width: 22px;
+    height: 28px;
+left: 24px;
+right: 84.03%;
+top: 15%;
+bottom: 65%;
+}
+.rfq{
+    height: 23px;
+    top: 50%;
+    position: absolute;
+    left: 4.17%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 150%;
+    color: #5C5C5C;
+}
+.hr{
+    position: absolute;
+    left: 4.17%;
+    right: 4.17%;
+    top: 73.57%;
+    bottom: 26.43%;
+    border: 1px solid #E0E0E0;
+}
+.stage{
+    position: absolute;
+left: 4.17%;
+right: 79.17%;
+top: 79.29%;
+bottom: 6.43%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 150%;
+/* identical to box height, or 20px */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+.days{
+    position: absolute;
+left: 79.86%;
+right: 4.17%;
+top: 79.29%;
+bottom: 6.43%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 150%;
+/* identical to box height, or 20px */
+
+display: flex;
+align-items: center;
+text-align: right;
+
+color: #000000;
+}
+.day{
+    position: absolute;
+left: 83.33%;
+right: 4.17%;
+top: 8.57%;
+bottom: 68.57%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 21px;
+line-height: 150%;
+/* identical to box height, or 32px */
+
+display: flex;
+align-items: center;
+text-align: right;
+
+/* Primary Color */
+
+color: #00838F;
+}
+.values{
+    position: absolute;
+left: 56.6%;
+right: 4.17%;
+top: 31.43%;
+bottom: 55.71%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+/* identical to box height, or 18px */
+
+display: flex;
+align-items: center;
+text-align: right;
+
+/* Secondary Text */
+
+color: #5C5C5C;
+}
+.setting{
+    position: absolute;
+width: 24px;
+height: 24px;
+left: 40px;
+top: 285px;
+}
+.settings{
+    position: absolute;
+left: 0.02%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Primary Text */
+
+background: #2B2C2D;
+}
+.master {
+    position: absolute;
+width: 233px;
+height: 21px;
+left: 74px;
+top: 286px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+/* Primary Text */
+
+color: #2B2C2D;
+}
