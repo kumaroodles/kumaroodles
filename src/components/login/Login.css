@@ -1,0 +1,67 @@
+*{
+    font-style: normal !important;
+    line-height: 150% !important;
+}
+.lcard{
+    background-color: black !important;
+    flex: 1 1 630px;
+    height: 784px;
+  }
+  .lcards{
+      flex: 1 1 810px;
+      height: 784px;
+      background-color:#F6FFFE !important;
+  }
+  .llogo{
+      margin-top: 75px;
+      width: 630px;
+      height: 630px;
+  }
+  .laccount{
+    position: absolute;
+    width: 267px;
+    height: 36px;
+    left: 730px;
+    top: 200px;
+    font-weight: 700 !important;
+    font-size: 24px !important;
+    color: #000000;
+  }
+  .register{
+    position: absolute;
+    width: 500px;
+    height: 24px;
+    left: 730px;
+    top: 252px;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    color: #000000;
+  }
+  .lform{
+position: absolute;
+left: 730px;
+top: 275px !important;
+  }
+  .inputtext{
+    background: #FFFFFF;
+    border: 1px solid #AAAAAA;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 380px;
+    height: 56px;
+  }
+  .submitbtn{
+    width: 380px;
+    height: 56px;
+    background: #3096D0 !important;
+border-radius: 8px;
+color: white !important;
+margin-top: 32px !important;
+text-transform: capitalize;
+  }
+  .email{
+margin-top: 80px !important;
+  }
+  .password{
+    margin-top: 32px !important;
+  }

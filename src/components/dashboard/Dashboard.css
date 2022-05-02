@@ -1,0 +1,182 @@
+.card{
+  background-color: black !important;
+  flex: 1 1 630px;
+  height: 784px;
+}
+.cards{
+    flex: 1 1 810px;
+    height: 784px;
+    background-color:#F6FFFE !important;
+}
+.phscrns{
+    position: absolute;
+    /* width: 199.77px; */
+    height: 397.11px;
+    top: 251;
+    top: 443px;
+}
+.title{
+    position: absolute;
+    width: 501px;
+    height: 102px;
+    left: 65px;
+    top: 169px;
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 34px !important;
+    line-height: 150% !important;
+    text-align: center;
+    color: #FFFFFF;
+}
+.titles{
+position: absolute;
+width: 532px;
+height: 36px;
+left: 730px;
+top: 257px;
+font-family: 'Poppins';
+font-style: normal !important;
+font-weight: 600 !important;
+font-size: 24px !important;
+line-height: 36px !important;
+color: #000000;
+}
+.whatsapp{
+    padding-left: 53px !important;
+    padding-top: 34px !important;
+}
+/* .telegram{
+    position: absolute;
+width: 160px;
+height: 159px;
+left: 929px;
+top: 373px;
+} */
+/* .signal{
+    position: absolute;
+width: 160px;
+height: 159px;
+left: 1129px;
+top: 373px;
+} */
+.button{
+  
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+position: absolute;
+width: 380px;
+height: 56px;
+font-family: 'Poppins';
+font-style: normal !important;
+font-weight: 600 !important;
+font-size: 18px !important;
+line-height: 27px;
+color: #ffffff;
+left: 730px;
+top: 652px;
+background: #96C5DF;
+border-radius: 8px;
+border: none;
+}
+.ic_love{
+    position: absolute;
+width: 56px;
+height: 57px;
+left: 1403.01px;
+top: 432px;
+}
+.Telegrams{
+    position: absolute;
+    left: 1316px;
+    top: 57px;
+
+}
+.whatsapps{
+    position: absolute;
+left: 1304px;
+top: 691px;
+}
+.whats{
+    position: absolute;
+    width: 159px;
+    height: 159px;
+    left: 730px;
+    top: 373px;
+    background: #F3FFFE;
+border: 0.5px solid #C1CECD;
+box-sizing: border-box;
+border-radius: 16px;
+}
+.tele{
+    position: absolute;
+    width: 159px;
+    height: 159px;
+    left: 929px;
+    top: 373px;
+    background: #F3FFFE;
+border: 0.5px solid #C1CECD;
+box-sizing: border-box;
+border-radius: 16px;
+}
+.sig{
+    position: absolute;
+    width: 159px;
+    height: 159px;
+    left: 1129px;
+    top: 373px;
+    background: #F3FFFE;
+border: 0.5px solid #C1CECD;
+box-sizing: border-box;
+border-radius: 16px;
+}
+.logoname{
+    padding-left: 38px;
+    padding-top: 16.19px;
+    width: 85px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+.logotele{
+    padding-left: 40px;
+    padding-top: 16.19px;
+    width: 78px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+.logosig{
+    padding-left: 55px;
+    padding-top: 16.19px;
+    width: 51px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.telegram{
+    padding-left: 53px !important;
+    padding-top: 34px !important;
+}
+.signal{
+    padding-left: 53px !important;
+    padding-top: 34px !important;
+}

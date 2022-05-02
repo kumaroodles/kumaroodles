@@ -1,42 +1,20 @@
-import React from "react";
+import * as React from 'react';
+import PropTypes from 'prop-types';
+import AppBar from '@mui/material/AppBar';
+import Toolbar from '@mui/material/Toolbar';
+import Logo from "../../assets/image/logo.png";
 import "./Navbar.css";
-import { Link, NavLink } from "react-router-dom";
-const Navbar = () => {
-    return (
 
 
-<>
-        <header>
-            <div className="header-top">
-                <div className="logo-dark">
-                    <img src="../assets/images/logo-dark.png"></img>
-                </div>
-                <div className="supplier">
-                    Supplier Discovery
-                </div>
-                <div className="rapid">
-                    Rapid sourcing
-                </div>
-                <div className="control">
-                    Control Tower
-                </div>
-                <div className="costing">
-                    Rapid Costing
-                </div>
-                <div className="vectors">
-                    <img src="../assets/images/Vector (9).png"></img>
-                </div>
-                <div className="eclipse">
-                    <img src="../assets/images/Ellipse 3.png"></img>
-                </div>
-            </div>
-         
-        </header>
-       
-
-</>
-
-    );
-};
-
-export default Navbar;
+export default function Navbar (props) {
+  return (
+    <React.Fragment>
+        <AppBar className="appbar">
+          <Toolbar>
+          <img src={Logo} className="logo" />
+          </Toolbar>
+        </AppBar>
+      <Toolbar />
+    </React.Fragment>
+  );
+}

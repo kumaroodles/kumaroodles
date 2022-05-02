@@ -1,0 +1,162 @@
+.card{
+    background-color: black !important;
+    flex: 1 1 630px;
+    height: 784px;
+  }
+  .cards{
+      flex: 1 1 810px;
+      height: 784px;
+      background-color:#F6FFFE !important;
+  }
+.squarebox{
+    /* position: absolute; */
+width: 384px;
+height: 384px;
+/* left: 117px;
+top: 268px; */
+margin-left: 117px;
+margin-top: 188px;
+background: #DBDBDB;
+border-radius: 40px;
+}
+.animation{
+width: 253px;
+height: 34px;
+padding-left: 66px;
+padding-top: 181px;
+/* font-family: 'Poppins' !important; */
+font-style: normal !important;
+font-weight: 600 !important;
+font-size: 28px !important;
+line-height: 34px;
+text-align: center;
+color: #000000;
+
+}
+.connect{
+    position: absolute;
+    width: 495px;
+height: 36px;
+padding-top: 120px;
+padding-left: 100px;
+/* left: 730px;
+top: 200px; */
+/* font-family: 'Poppins' !important; */
+font-style: normal !important;
+font-weight: 600 !important;
+font-size: 24px !important;
+line-height: 36px;
+color: #000000;
+}
+.step{
+    position: absolute;
+width: 62px;
+height: 27px;
+/* left: 731px;
+top: 309px; */
+padding-left: 95px;
+padding-top: 229px;
+/* font-family: 'Poppins' !important; */
+font-style: normal !important;
+font-weight: 600 !important;
+font-size: 18px;
+line-height: 27px;
+text-align: center;
+color: #000000;
+}
+.steptwo{
+    position: absolute;
+width: 62px;
+height: 27px;
+/* left: 731px;
+top: 309px; */
+padding-left: 95px;
+padding-top: 301px;
+/* font-family: 'Poppins' !important; */
+font-style: normal !important;
+font-weight: 600 !important;
+font-size: 18px;
+line-height: 27px;
+text-align: center;
+color: #000000;
+}
+.stepthree{
+    position: absolute;
+width: 62px;
+height: 27px;
+/* left: 731px;
+top: 309px; */
+padding-left: 95px;
+padding-top: 373px;
+/* font-family: 'Poppins' !important; */
+font-style: normal !important;
+font-weight: 600 !important;
+font-size: 18px;
+line-height: 27px;
+text-align: center;
+color: #000000;
+}
+.steps{
+    position: absolute;
+    width: 368px;
+    height: 48px;
+padding-left: 165px;
+padding-top: 229px;
+/* font-family: 'Poppins' !important; */
+font-style: normal !important;
+font-weight: 500 !important;
+font-size: 16px !important;
+line-height: 150%;
+/* text-align: center; */
+color: #000000;
+}
+.stepstwo{
+    position: absolute;
+    width: 370px;
+    height: 48px;
+padding-left: 165px;
+padding-top: 301px;
+/* font-family: 'Poppins' !important; */
+font-style: normal !important;
+font-weight: 500 !important;
+font-size: 16px !important;
+line-height: 150%;
+/* text-align: center; */
+color: #000000;
+}
+.stepsthree{
+    position: absolute;
+    width: 450px;
+    height: 24px;
+/* padding-left: 150px; */
+padding-left: 145px;
+padding-top: 373px;
+/* font-family: 'Poppins' !important; */
+font-style: normal !important;
+font-weight: 500 !important;
+font-size: 16px !important;
+line-height: 150%;
+text-align: center;
+color: #000000;
+}
+.button{
+    flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+position: absolute;
+width: 380px;
+height: 56px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px !important;
+line-height: 27px;
+color: #ffffff;
+left: 730px;
+top: 652px;
+background: #96C5DF;
+border-radius: 8px;
+border: none;
+
+}
